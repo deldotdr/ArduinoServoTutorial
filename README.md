@@ -35,11 +35,11 @@ The OpenRB-150 uses the `Dynamixel2Arduino` library to control DYNAMIXEL servos:
 
 ## Project Overview
 This repository contains a series of sketches (in `examples` folder) to teach Arduino basics and servo control with the OpenRB-150:
-1. `01_BlinkLED.ino` - Basic Arduino setup and LED control.
-2. `02_OpenRBIntro.ino` - Introduction to OpenRB-150 and DYNAMIXEL.
-3. `03_ServoBasics.ino` - Basic servo control concepts.
-4. `04_SerialControl.ino` - Using Serial for command input.
-5. `05_ServoDemo.ino` - Combining Serial and OpenRB-150 for creative servo demos.
+1. [`01_BlinkLED.ino`](examples/01_BlinkLED/01_BlinkLED.ino) - Basic Arduino setup and LED control.
+2. [`02_OpenRBIntro.ino`](examples/02_OpenRBIntro/02_OpenRBIntro.ino) - Introduction to OpenRB-150 and DYNAMIXEL.
+3. [`03_ServoBasics.ino`](examples/03_ServoBasics/03_ServoBasics.ino) - Basic servo control concepts.
+4. [`04_SerialControl.ino`](examples/04_SerialControl/04_SerialControl.ino) - Using Serial for command input.
+5. [`05_ServoDemo.ino`](examples/05_ServoDemo/05_ServoDemo.ino) - Combining Serial and OpenRB-150 for creative servo demos.
 
 Connect your OpenRB-150, upload each sketch, and follow the comments to learn!
 
