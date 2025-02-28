@@ -1,5 +1,5 @@
 /*
- * CreativeServoDemo.ino
+ * ServoDemo.ino
  * Purpose: Combine Serial commands and OpenRB-150 servo control for creative demos.
  * Hardware: OpenRB-150 with a DYNAMIXEL servo.
  * Learning Goals:
@@ -37,7 +37,7 @@ void setup() {
   dxl.setOperatingMode(DXL_ID, OP_POSITION);
   dxl.torqueOn(DXL_ID);
 
-  Serial.println("Creative Servo Demo");
+  Serial.println("Servo Demo");
   Serial.println("Commands:");
   Serial.println("- 'pos <mm>' (e.g., 'pos 50'): Move to position in mm");
   Serial.println("- 'wave': Oscillate like a wave");
