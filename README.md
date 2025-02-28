@@ -39,6 +39,6 @@ This repository contains a series of sketches to teach Arduino basics and servo 
 2. `OpenRBIntro.ino` - Introduction to OpenRB-150 and DYNAMIXEL.
 3. `ServoBasics.ino` - Basic servo control concepts.
 4. `SerialControl.ino` - Using Serial for command input.
-5. `CreativeServoDemo.ino` - Combining Serial and OpenRB-150 for creative servo demos.
+5. `ServoDemo.ino` - Combining Serial and OpenRB-150 for creative servo demos.
 
 Connect your OpenRB-150, upload each sketch, and follow the comments to learn!
